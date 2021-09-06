@@ -814,6 +814,9 @@ namespace Project
             // 
             // btnLast
             // 
+            this.btnLast.AccessibleDescription = "Push button to navigate to the last record.";
+            this.btnLast.AccessibleName = "Last";
+            this.btnLast.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnLast.BackColor = System.Drawing.Color.Transparent;
             this.btnLast.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLast.ForeColor = System.Drawing.SystemColors.Info;
@@ -821,7 +824,7 @@ namespace Project
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(105, 47);
             this.btnLast.TabIndex = 11;
-            this.btnLast.Text = "Last";
+            this.btnLast.Text = "Las&t";
             this.btnLast.UseCompatibleTextRendering = true;
             this.btnLast.UseVisualStyleBackColor = false;
             this.btnLast.Click += new System.EventHandler(this.btnLast_Click_1);
@@ -829,6 +832,9 @@ namespace Project
             // 
             // btnNext
             // 
+            this.btnNext.AccessibleDescription = "Push button to navigate to the next record.";
+            this.btnNext.AccessibleName = "Next";
+            this.btnNext.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnNext.BackColor = System.Drawing.Color.Transparent;
             this.btnNext.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
@@ -836,7 +842,7 @@ namespace Project
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(105, 47);
             this.btnNext.TabIndex = 10;
-            this.btnNext.Text = "Next";
+            this.btnNext.Text = "&Next";
             this.btnNext.UseCompatibleTextRendering = true;
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
@@ -844,6 +850,9 @@ namespace Project
             // 
             // btnPrevious
             // 
+            this.btnPrevious.AccessibleDescription = "Push button to navigate to the previous record.";
+            this.btnPrevious.AccessibleName = "Previous";
+            this.btnPrevious.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnPrevious.BackColor = System.Drawing.Color.Transparent;
             this.btnPrevious.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -851,7 +860,7 @@ namespace Project
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(105, 47);
             this.btnPrevious.TabIndex = 9;
-            this.btnPrevious.Text = "Previous";
+            this.btnPrevious.Text = "Pre&vious";
             this.btnPrevious.UseCompatibleTextRendering = true;
             this.btnPrevious.UseVisualStyleBackColor = false;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click_1);
@@ -859,6 +868,9 @@ namespace Project
             // 
             // btnSaveAsCsv
             // 
+            this.btnSaveAsCsv.AccessibleDescription = "Push button to save file as CSV.";
+            this.btnSaveAsCsv.AccessibleName = "CSV";
+            this.btnSaveAsCsv.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSaveAsCsv.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveAsCsv.ForeColor = System.Drawing.SystemColors.Info;
             this.btnSaveAsCsv.Location = new System.Drawing.Point(623, 65);
@@ -871,6 +883,9 @@ namespace Project
             // 
             // btnSaveAs
             // 
+            this.btnSaveAs.AccessibleDescription = "Push button to save file as.";
+            this.btnSaveAs.AccessibleName = "SaveAs";
+            this.btnSaveAs.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSaveAs.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveAs.Location = new System.Drawing.Point(396, 65);
             this.btnSaveAs.Name = "btnSaveAs";
@@ -882,28 +897,36 @@ namespace Project
             // 
             // btnSave
             // 
+            this.btnSave.AccessibleDescription = "Push button to save file.";
+            this.btnSave.AccessibleName = "Save";
+            this.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSave.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(509, 65);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(72, 23);
             this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Sa&ve";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // btnOpenFile
             // 
+            this.btnOpenFile.AccessibleDescription = "Push button to open file.";
+            this.btnOpenFile.AccessibleName = "Open";
             this.btnOpenFile.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenFile.Location = new System.Drawing.Point(134, 65);
             this.btnOpenFile.Name = "btnOpenFile";
             this.btnOpenFile.Size = new System.Drawing.Size(108, 23);
             this.btnOpenFile.TabIndex = 5;
-            this.btnOpenFile.Text = "Open File";
+            this.btnOpenFile.Text = "&Open File";
             this.btnOpenFile.UseVisualStyleBackColor = true;
             this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click_1);
             // 
             // btnCloseFile
             // 
+            this.btnCloseFile.AccessibleDescription = "Push button to close file.";
+            this.btnCloseFile.AccessibleName = "Close";
+            this.btnCloseFile.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnCloseFile.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseFile.Location = new System.Drawing.Point(283, 65);
             this.btnCloseFile.Name = "btnCloseFile";
@@ -915,6 +938,9 @@ namespace Project
             // 
             // btnFirst
             // 
+            this.btnFirst.AccessibleDescription = "Push button to navigate to the first record.";
+            this.btnFirst.AccessibleName = "First";
+            this.btnFirst.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnFirst.BackColor = System.Drawing.Color.Transparent;
             this.btnFirst.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFirst.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -922,7 +948,7 @@ namespace Project
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(105, 47);
             this.btnFirst.TabIndex = 0;
-            this.btnFirst.Text = "First";
+            this.btnFirst.Text = "&First";
             this.btnFirst.UseCompatibleTextRendering = true;
             this.btnFirst.UseVisualStyleBackColor = false;
             this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click_1);
@@ -959,6 +985,9 @@ namespace Project
             // 
             // txtIndex
             // 
+            this.txtIndex.AccessibleDescription = "Text box to display index number";
+            this.txtIndex.AccessibleName = "Index";
+            this.txtIndex.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             this.txtIndex.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtIndex.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIndex.Location = new System.Drawing.Point(396, 25);
