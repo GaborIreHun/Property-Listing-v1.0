@@ -589,6 +589,9 @@ namespace Project
             // 
             // btnAdd
             // 
+            this.btnAdd.AccessibleDescription = "A button to add your new record to your collection.";
+            this.btnAdd.AccessibleName = "Add";
+            this.btnAdd.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -596,13 +599,16 @@ namespace Project
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(112, 23);
             this.btnAdd.TabIndex = 20;
-            this.btnAdd.Text = "Add Record";
+            this.btnAdd.Text = "&Add Record";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             this.btnAdd.MouseHover += new System.EventHandler(this.btnAdd_MouseHover);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.AccessibleDescription = "A button to update your current record in your collection.";
+            this.btnUpdate.AccessibleName = "Update";
+            this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnUpdate.BackColor = System.Drawing.Color.Transparent;
             this.btnUpdate.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -610,13 +616,16 @@ namespace Project
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(112, 23);
             this.btnUpdate.TabIndex = 21;
-            this.btnUpdate.Text = "Update Record";
+            this.btnUpdate.Text = "&Update Record";
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click_1);
             this.btnUpdate.MouseHover += new System.EventHandler(this.btnUpdate_MouseHover);
             // 
             // btnDelete
             // 
+            this.btnDelete.AccessibleDescription = "A button to delete current record in your collection.";
+            this.btnDelete.AccessibleName = "Delete";
+            this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnDelete.BackColor = System.Drawing.Color.Transparent;
             this.btnDelete.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -624,13 +633,16 @@ namespace Project
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(112, 23);
             this.btnDelete.TabIndex = 22;
-            this.btnDelete.Text = "Delete Record";
+            this.btnDelete.Text = "&Delete Record";
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click_1);
             this.btnDelete.MouseHover += new System.EventHandler(this.btnDelete_MouseHover);
             // 
             // btnClear
             // 
+            this.btnClear.AccessibleDescription = "A button to clear all fields.";
+            this.btnClear.AccessibleName = "Clear";
+            this.btnClear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnClear.BackColor = System.Drawing.Color.Transparent;
             this.btnClear.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -638,7 +650,7 @@ namespace Project
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 23);
             this.btnClear.TabIndex = 24;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = "&Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClearAll_Click_1);
             this.btnClear.MouseHover += new System.EventHandler(this.btnClear_MouseHover);
@@ -697,6 +709,9 @@ namespace Project
             // 
             // btnSearch
             // 
+            this.btnSearch.AccessibleDescription = "A button navigate you to the search form.";
+            this.btnSearch.AccessibleName = "Search";
+            this.btnSearch.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSearch.BackColor = System.Drawing.Color.Transparent;
             this.btnSearch.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -704,13 +719,16 @@ namespace Project
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(112, 23);
             this.btnSearch.TabIndex = 28;
-            this.btnSearch.Text = "Search Record";
+            this.btnSearch.Text = "&Search Record";
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             this.btnSearch.MouseHover += new System.EventHandler(this.btnSearch_MouseHover);
             // 
             // btnExit
             // 
+            this.btnExit.AccessibleDescription = "A button to exit thhe application.";
+            this.btnExit.AccessibleName = "Exit";
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -718,13 +736,15 @@ namespace Project
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(112, 23);
             this.btnExit.TabIndex = 30;
-            this.btnExit.Text = "Exit";
+            this.btnExit.Text = "&Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             this.btnExit.MouseHover += new System.EventHandler(this.btnExit_MouseHover);
             // 
             // btnCancel
             // 
+            this.btnCancel.AccessibleDescription = "A button to cancel any edit on the current record.";
+            this.btnCancel.AccessibleName = "Cancel";
             this.btnCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnCancel.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -732,7 +752,7 @@ namespace Project
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(112, 23);
             this.btnCancel.TabIndex = 29;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cance&l";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             this.btnCancel.MouseHover += new System.EventHandler(this.btnCancel_MouseHover);
@@ -867,6 +887,9 @@ namespace Project
             // 
             // btnClearRecords
             // 
+            this.btnClearRecords.AccessibleDescription = "A button to erase all records in your collection.";
+            this.btnClearRecords.AccessibleName = "Erase";
+            this.btnClearRecords.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnClearRecords.BackColor = System.Drawing.Color.Transparent;
             this.btnClearRecords.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearRecords.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -874,7 +897,7 @@ namespace Project
             this.btnClearRecords.Name = "btnClearRecords";
             this.btnClearRecords.Size = new System.Drawing.Size(112, 23);
             this.btnClearRecords.TabIndex = 33;
-            this.btnClearRecords.Text = "Clear Records";
+            this.btnClearRecords.Text = "Clear &Records";
             this.btnClearRecords.UseVisualStyleBackColor = false;
             this.btnClearRecords.Click += new System.EventHandler(this.btnClearRecord_Click);
             this.btnClearRecords.MouseHover += new System.EventHandler(this.btnClearRecord_MouseHover);
