@@ -193,6 +193,9 @@ namespace Project
             // 
             // comboBoxWheelchair
             // 
+            this.comboBoxWheelchair.AccessibleDescription = "Combobox to set the wheelchair access preference for the property searched.";
+            this.comboBoxWheelchair.AccessibleName = "Wheelchair search";
+            this.comboBoxWheelchair.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxWheelchair.FormattingEnabled = true;
             this.comboBoxWheelchair.Items.AddRange(new object[] {
             "True",
@@ -200,11 +203,14 @@ namespace Project
             this.comboBoxWheelchair.Location = new System.Drawing.Point(621, 56);
             this.comboBoxWheelchair.Name = "comboBoxWheelchair";
             this.comboBoxWheelchair.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxWheelchair.TabIndex = 7;
+            this.comboBoxWheelchair.TabIndex = 20;
             this.comboBoxWheelchair.MouseHover += new System.EventHandler(this.comboBoxWheelchair_MouseHover);
             // 
             // comboBoxProximity
             // 
+            this.comboBoxProximity.AccessibleDescription = "Combobox to set the proximity preference for the property searched.";
+            this.comboBoxProximity.AccessibleName = "Proximity search";
+            this.comboBoxProximity.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxProximity.FormattingEnabled = true;
             this.comboBoxProximity.Items.AddRange(new object[] {
             "True",
@@ -212,11 +218,14 @@ namespace Project
             this.comboBoxProximity.Location = new System.Drawing.Point(621, 19);
             this.comboBoxProximity.Name = "comboBoxProximity";
             this.comboBoxProximity.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxProximity.TabIndex = 6;
+            this.comboBoxProximity.TabIndex = 19;
             this.comboBoxProximity.MouseHover += new System.EventHandler(this.comboBoxProximity_MouseHover);
             // 
             // comboBoxSolarPanel
             // 
+            this.comboBoxSolarPanel.AccessibleDescription = "Combobox to set the solar panel preference for the property searched.";
+            this.comboBoxSolarPanel.AccessibleName = "Solar search";
+            this.comboBoxSolarPanel.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxSolarPanel.FormattingEnabled = true;
             this.comboBoxSolarPanel.Items.AddRange(new object[] {
             "True",
@@ -224,11 +233,14 @@ namespace Project
             this.comboBoxSolarPanel.Location = new System.Drawing.Point(423, 56);
             this.comboBoxSolarPanel.Name = "comboBoxSolarPanel";
             this.comboBoxSolarPanel.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxSolarPanel.TabIndex = 5;
+            this.comboBoxSolarPanel.TabIndex = 18;
             this.comboBoxSolarPanel.MouseHover += new System.EventHandler(this.comboBoxSolarPanel_MouseHover);
             // 
             // comboBoxAircondition
             // 
+            this.comboBoxAircondition.AccessibleDescription = "Combobox to set the airconditioning preference for the property searched.";
+            this.comboBoxAircondition.AccessibleName = "Aircondition search";
+            this.comboBoxAircondition.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxAircondition.FormattingEnabled = true;
             this.comboBoxAircondition.Items.AddRange(new object[] {
             "True",
@@ -236,11 +248,14 @@ namespace Project
             this.comboBoxAircondition.Location = new System.Drawing.Point(423, 19);
             this.comboBoxAircondition.Name = "comboBoxAircondition";
             this.comboBoxAircondition.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxAircondition.TabIndex = 4;
+            this.comboBoxAircondition.TabIndex = 17;
             this.comboBoxAircondition.MouseHover += new System.EventHandler(this.comboBoxAircondition_MouseHover);
             // 
             // comboBoxBroadband
             // 
+            this.comboBoxBroadband.AccessibleDescription = "Combobox to set the broadband preference for the property searched.";
+            this.comboBoxBroadband.AccessibleName = "Broadband search";
+            this.comboBoxBroadband.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxBroadband.FormattingEnabled = true;
             this.comboBoxBroadband.Items.AddRange(new object[] {
             "True",
@@ -248,11 +263,14 @@ namespace Project
             this.comboBoxBroadband.Location = new System.Drawing.Point(258, 57);
             this.comboBoxBroadband.Name = "comboBoxBroadband";
             this.comboBoxBroadband.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxBroadband.TabIndex = 3;
+            this.comboBoxBroadband.TabIndex = 16;
             this.comboBoxBroadband.MouseHover += new System.EventHandler(this.comboBoxBroadband_MouseHover);
             // 
             // comboBoxAlarm
             // 
+            this.comboBoxAlarm.AccessibleDescription = "Combobox to set the alarm preference for the property searched.";
+            this.comboBoxAlarm.AccessibleName = "Alarm search";
+            this.comboBoxAlarm.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxAlarm.FormattingEnabled = true;
             this.comboBoxAlarm.Items.AddRange(new object[] {
             "True",
@@ -260,11 +278,14 @@ namespace Project
             this.comboBoxAlarm.Location = new System.Drawing.Point(258, 20);
             this.comboBoxAlarm.Name = "comboBoxAlarm";
             this.comboBoxAlarm.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxAlarm.TabIndex = 2;
+            this.comboBoxAlarm.TabIndex = 15;
             this.comboBoxAlarm.MouseHover += new System.EventHandler(this.comboBoxAlarm_MouseHover);
             // 
             // comboBoxGarden
             // 
+            this.comboBoxGarden.AccessibleDescription = "Combobox to set the garden preference for the property searched.";
+            this.comboBoxGarden.AccessibleName = "Garden search";
+            this.comboBoxGarden.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxGarden.FormattingEnabled = true;
             this.comboBoxGarden.Items.AddRange(new object[] {
             "True",
@@ -272,11 +293,14 @@ namespace Project
             this.comboBoxGarden.Location = new System.Drawing.Point(63, 56);
             this.comboBoxGarden.Name = "comboBoxGarden";
             this.comboBoxGarden.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxGarden.TabIndex = 1;
+            this.comboBoxGarden.TabIndex = 14;
             this.comboBoxGarden.MouseHover += new System.EventHandler(this.comboBoxGarden_MouseHover);
             // 
             // comboBoxParking
             // 
+            this.comboBoxParking.AccessibleDescription = "Combobox to set the parking preference for the property searched.";
+            this.comboBoxParking.AccessibleName = "Parking search";
+            this.comboBoxParking.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxParking.FormattingEnabled = true;
             this.comboBoxParking.Items.AddRange(new object[] {
             "True",
@@ -284,11 +308,14 @@ namespace Project
             this.comboBoxParking.Location = new System.Drawing.Point(63, 19);
             this.comboBoxParking.Name = "comboBoxParking";
             this.comboBoxParking.Size = new System.Drawing.Size(65, 25);
-            this.comboBoxParking.TabIndex = 0;
+            this.comboBoxParking.TabIndex = 13;
             this.comboBoxParking.MouseHover += new System.EventHandler(this.comboBoxParking_MouseHover);
             // 
             // comboBoxDistrict1
             // 
+            this.comboBoxDistrict1.AccessibleDescription = "Combobox to set the name of the district for the property searched.";
+            this.comboBoxDistrict1.AccessibleName = "District search";
+            this.comboBoxDistrict1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxDistrict1.FormattingEnabled = true;
             this.comboBoxDistrict1.Items.AddRange(new object[] {
             "D1",
@@ -316,7 +343,7 @@ namespace Project
             this.comboBoxDistrict1.Name = "comboBoxDistrict1";
             this.comboBoxDistrict1.Size = new System.Drawing.Size(143, 21);
             this.comboBoxDistrict1.Sorted = true;
-            this.comboBoxDistrict1.TabIndex = 31;
+            this.comboBoxDistrict1.TabIndex = 2;
             this.comboBoxDistrict1.MouseHover += new System.EventHandler(this.comboBoxDistrict1_MouseHover);
             // 
             // label4
@@ -345,6 +372,9 @@ namespace Project
             // 
             // comboBoxArea1
             // 
+            this.comboBoxArea1.AccessibleDescription = "Combobox to set area of the property for the search.";
+            this.comboBoxArea1.AccessibleName = "Area search";
+            this.comboBoxArea1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxArea1.FormattingEnabled = true;
             this.comboBoxArea1.Items.AddRange(new object[] {
             "Abbey Street",
@@ -532,11 +562,14 @@ namespace Project
             this.comboBoxArea1.Name = "comboBoxArea1";
             this.comboBoxArea1.Size = new System.Drawing.Size(143, 21);
             this.comboBoxArea1.Sorted = true;
-            this.comboBoxArea1.TabIndex = 28;
+            this.comboBoxArea1.TabIndex = 1;
             this.comboBoxArea1.MouseHover += new System.EventHandler(this.comboBoxArea1_MouseHover);
             // 
             // comboBoxHeating1
             // 
+            this.comboBoxHeating1.AccessibleDescription = "Combobox to set the type of the heating of the property searched.";
+            this.comboBoxHeating1.AccessibleName = "Heating search";
+            this.comboBoxHeating1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxHeating1.FormattingEnabled = true;
             this.comboBoxHeating1.Items.AddRange(new object[] {
             "Gas central heating system",
@@ -549,11 +582,14 @@ namespace Project
             this.comboBoxHeating1.Location = new System.Drawing.Point(304, 98);
             this.comboBoxHeating1.Name = "comboBoxHeating1";
             this.comboBoxHeating1.Size = new System.Drawing.Size(143, 21);
-            this.comboBoxHeating1.TabIndex = 35;
+            this.comboBoxHeating1.TabIndex = 4;
             this.comboBoxHeating1.MouseHover += new System.EventHandler(this.comboBoxHeating1_MouseHover);
             // 
             // comboBoxType1
             // 
+            this.comboBoxType1.AccessibleDescription = "Combobox to set the type of the property searched.";
+            this.comboBoxType1.AccessibleName = "Type search";
+            this.comboBoxType1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxType1.FormattingEnabled = true;
             this.comboBoxType1.Items.AddRange(new object[] {
             "House",
@@ -570,7 +606,7 @@ namespace Project
             this.comboBoxType1.Location = new System.Drawing.Point(304, 34);
             this.comboBoxType1.Name = "comboBoxType1";
             this.comboBoxType1.Size = new System.Drawing.Size(143, 21);
-            this.comboBoxType1.TabIndex = 34;
+            this.comboBoxType1.TabIndex = 3;
             this.comboBoxType1.MouseHover += new System.EventHandler(this.comboBoxType1_MouseHover);
             // 
             // label6
@@ -599,6 +635,9 @@ namespace Project
             // 
             // comboBoxBer1
             // 
+            this.comboBoxBer1.AccessibleDescription = "Combobox to set the BER rating of the property searched.";
+            this.comboBoxBer1.AccessibleName = "BER search";
+            this.comboBoxBer1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxBer1.FormattingEnabled = true;
             this.comboBoxBer1.Items.AddRange(new object[] {
             "A1",
@@ -621,11 +660,14 @@ namespace Project
             this.comboBoxBer1.Location = new System.Drawing.Point(532, 100);
             this.comboBoxBer1.Name = "comboBoxBer1";
             this.comboBoxBer1.Size = new System.Drawing.Size(143, 21);
-            this.comboBoxBer1.TabIndex = 39;
+            this.comboBoxBer1.TabIndex = 6;
             this.comboBoxBer1.MouseHover += new System.EventHandler(this.comboBoxBer1_MouseHover);
             // 
             // comboBoxRoom1
             // 
+            this.comboBoxRoom1.AccessibleDescription = "Combobox to set the number of rooms of the property searched.";
+            this.comboBoxRoom1.AccessibleName = "Room search";
+            this.comboBoxRoom1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxRoom1.FormattingEnabled = true;
             this.comboBoxRoom1.Items.AddRange(new object[] {
             "1",
@@ -637,7 +679,7 @@ namespace Project
             this.comboBoxRoom1.Location = new System.Drawing.Point(532, 36);
             this.comboBoxRoom1.Name = "comboBoxRoom1";
             this.comboBoxRoom1.Size = new System.Drawing.Size(143, 21);
-            this.comboBoxRoom1.TabIndex = 38;
+            this.comboBoxRoom1.TabIndex = 5;
             this.comboBoxRoom1.MouseHover += new System.EventHandler(this.comboBoxRoom1_MouseHover);
             // 
             // label8
@@ -690,6 +732,9 @@ namespace Project
             // 
             // comboBoxMin
             // 
+            this.comboBoxMin.AccessibleDescription = "Combobox to set the minimum size of the property searched.";
+            this.comboBoxMin.AccessibleName = "Minimum size";
+            this.comboBoxMin.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxMin.FormattingEnabled = true;
             this.comboBoxMin.Items.AddRange(new object[] {
             "20",
@@ -712,11 +757,14 @@ namespace Project
             this.comboBoxMin.Location = new System.Drawing.Point(12, 19);
             this.comboBoxMin.Name = "comboBoxMin";
             this.comboBoxMin.Size = new System.Drawing.Size(62, 23);
-            this.comboBoxMin.TabIndex = 43;
+            this.comboBoxMin.TabIndex = 7;
             this.comboBoxMin.MouseHover += new System.EventHandler(this.comboBoxMin_MouseHover);
             // 
             // comboBoxMax
             // 
+            this.comboBoxMax.AccessibleDescription = "Combobox to set the maximum size of the property searched.";
+            this.comboBoxMax.AccessibleName = "Maximum size";
+            this.comboBoxMax.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxMax.FormattingEnabled = true;
             this.comboBoxMax.Items.AddRange(new object[] {
             "250",
@@ -737,7 +785,7 @@ namespace Project
             this.comboBoxMax.Location = new System.Drawing.Point(89, 19);
             this.comboBoxMax.Name = "comboBoxMax";
             this.comboBoxMax.Size = new System.Drawing.Size(62, 23);
-            this.comboBoxMax.TabIndex = 44;
+            this.comboBoxMax.TabIndex = 8;
             this.comboBoxMax.MouseHover += new System.EventHandler(this.comboBoxMax_MouseHover);
             // 
             // groupBox2
@@ -770,6 +818,9 @@ namespace Project
             // 
             // comboBoxMin1
             // 
+            this.comboBoxMin1.AccessibleDescription = "Combobox to set the minimum price of the property searched.";
+            this.comboBoxMin1.AccessibleName = "Minimum price";
+            this.comboBoxMin1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxMin1.FormattingEnabled = true;
             this.comboBoxMin1.Items.AddRange(new object[] {
             "25000",
@@ -787,11 +838,14 @@ namespace Project
             this.comboBoxMin1.Location = new System.Drawing.Point(12, 19);
             this.comboBoxMin1.Name = "comboBoxMin1";
             this.comboBoxMin1.Size = new System.Drawing.Size(62, 23);
-            this.comboBoxMin1.TabIndex = 43;
+            this.comboBoxMin1.TabIndex = 9;
             this.comboBoxMin1.MouseHover += new System.EventHandler(this.comboBoxMin1_MouseHover);
             // 
             // comboBoxMax1
             // 
+            this.comboBoxMax1.AccessibleDescription = "Combobox to set the maximum price of the property searched.";
+            this.comboBoxMax1.AccessibleName = "Maximum price";
+            this.comboBoxMax1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.comboBoxMax1.FormattingEnabled = true;
             this.comboBoxMax1.Items.AddRange(new object[] {
             "600000",
@@ -831,32 +885,38 @@ namespace Project
             this.comboBoxMax1.Location = new System.Drawing.Point(89, 19);
             this.comboBoxMax1.Name = "comboBoxMax1";
             this.comboBoxMax1.Size = new System.Drawing.Size(62, 23);
-            this.comboBoxMax1.TabIndex = 44;
+            this.comboBoxMax1.TabIndex = 10;
             this.comboBoxMax1.MouseHover += new System.EventHandler(this.comboBoxMax1_MouseHover);
             // 
             // btnMap
             // 
+            this.btnMap.AccessibleDescription = "Push button to display the map.";
+            this.btnMap.AccessibleName = "Map";
+            this.btnMap.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnMap.BackColor = System.Drawing.Color.Transparent;
             this.btnMap.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMap.ForeColor = System.Drawing.Color.Black;
             this.btnMap.Location = new System.Drawing.Point(14, 136);
             this.btnMap.Name = "btnMap";
             this.btnMap.Size = new System.Drawing.Size(82, 36);
-            this.btnMap.TabIndex = 49;
-            this.btnMap.Text = "Map";
+            this.btnMap.TabIndex = 11;
+            this.btnMap.Text = "&Map";
             this.btnMap.UseVisualStyleBackColor = false;
             this.btnMap.Click += new System.EventHandler(this.btnMap_Click);
             this.btnMap.MouseHover += new System.EventHandler(this.btnMap_MouseHover);
             // 
             // btnSearching
             // 
+            this.btnSearching.AccessibleDescription = "Push button to search the records by the set criteria.";
+            this.btnSearching.AccessibleName = "Search";
+            this.btnSearching.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSearching.BackColor = System.Drawing.Color.Transparent;
             this.btnSearching.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearching.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSearching.Location = new System.Drawing.Point(800, 203);
             this.btnSearching.Name = "btnSearching";
             this.btnSearching.Size = new System.Drawing.Size(140, 26);
-            this.btnSearching.TabIndex = 50;
+            this.btnSearching.TabIndex = 23;
             this.btnSearching.Text = "Search";
             this.btnSearching.UseVisualStyleBackColor = false;
             this.btnSearching.Click += new System.EventHandler(this.btnSearching_Click);
@@ -864,14 +924,17 @@ namespace Project
             // 
             // btnBack1
             // 
+            this.btnBack1.AccessibleDescription = "Push button to navigate back to the main page.";
+            this.btnBack1.AccessibleName = "Back";
+            this.btnBack1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnBack1.BackColor = System.Drawing.Color.Transparent;
             this.btnBack1.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack1.ForeColor = System.Drawing.Color.Black;
             this.btnBack1.Location = new System.Drawing.Point(12, 192);
             this.btnBack1.Name = "btnBack1";
             this.btnBack1.Size = new System.Drawing.Size(82, 36);
-            this.btnBack1.TabIndex = 51;
-            this.btnBack1.Text = "Back";
+            this.btnBack1.TabIndex = 12;
+            this.btnBack1.Text = "&Back";
             this.btnBack1.UseVisualStyleBackColor = false;
             this.btnBack1.Click += new System.EventHandler(this.btnBack_Click);
             this.btnBack1.MouseHover += new System.EventHandler(this.btnBack1_MouseHover);
@@ -905,34 +968,43 @@ namespace Project
             // 
             // btnRefresh
             // 
+            this.btnRefresh.AccessibleDescription = "Push button to refresh search list to all records.";
+            this.btnRefresh.AccessibleName = "Refresh search";
+            this.btnRefresh.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
             this.btnRefresh.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnRefresh.Location = new System.Drawing.Point(800, 168);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(140, 26);
-            this.btnRefresh.TabIndex = 54;
-            this.btnRefresh.Text = "Refresh List";
+            this.btnRefresh.TabIndex = 22;
+            this.btnRefresh.Text = "&Refresh List";
             this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             this.btnRefresh.MouseHover += new System.EventHandler(this.btnRefresh_MouseHover);
             // 
             // btnClearAll
             // 
+            this.btnClearAll.AccessibleDescription = "Push button to clear all criteria set for search.";
+            this.btnClearAll.AccessibleName = "Clear search";
+            this.btnClearAll.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnClearAll.BackColor = System.Drawing.Color.Transparent;
             this.btnClearAll.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearAll.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClearAll.Location = new System.Drawing.Point(800, 133);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(140, 26);
-            this.btnClearAll.TabIndex = 55;
-            this.btnClearAll.Text = "Clear Criteria";
+            this.btnClearAll.TabIndex = 21;
+            this.btnClearAll.Text = "&Clear Criteria";
             this.btnClearAll.UseVisualStyleBackColor = false;
             this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
             this.btnClearAll.MouseHover += new System.EventHandler(this.btnClearAll_MouseHover);
             // 
             // radioButtonOff
             // 
+            this.radioButtonOff.AccessibleDescription = "Radio button to switch the tooltip guiding mode off.";
+            this.radioButtonOff.AccessibleName = "Off search";
+            this.radioButtonOff.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
             this.radioButtonOff.AutoSize = true;
             this.radioButtonOff.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOff.Checked = true;
@@ -941,14 +1013,17 @@ namespace Project
             this.radioButtonOff.Location = new System.Drawing.Point(191, 4);
             this.radioButtonOff.Name = "radioButtonOff";
             this.radioButtonOff.Size = new System.Drawing.Size(40, 19);
-            this.radioButtonOff.TabIndex = 58;
+            this.radioButtonOff.TabIndex = 25;
             this.radioButtonOff.TabStop = true;
-            this.radioButtonOff.Text = "off";
+            this.radioButtonOff.Text = "o&ff";
             this.radioButtonOff.UseVisualStyleBackColor = false;
             this.radioButtonOff.CheckedChanged += new System.EventHandler(this.radioButtonOff_CheckedChanged);
             // 
             // radioButtonOn
             // 
+            this.radioButtonOn.AccessibleDescription = "Radio button to set tooltip guiding mode on.";
+            this.radioButtonOn.AccessibleName = "On search";
+            this.radioButtonOn.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
             this.radioButtonOn.AutoSize = true;
             this.radioButtonOn.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOn.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -956,8 +1031,8 @@ namespace Project
             this.radioButtonOn.Location = new System.Drawing.Point(146, 4);
             this.radioButtonOn.Name = "radioButtonOn";
             this.radioButtonOn.Size = new System.Drawing.Size(39, 19);
-            this.radioButtonOn.TabIndex = 57;
-            this.radioButtonOn.Text = "on";
+            this.radioButtonOn.TabIndex = 24;
+            this.radioButtonOn.Text = "&on";
             this.radioButtonOn.UseVisualStyleBackColor = false;
             this.radioButtonOn.CheckedChanged += new System.EventHandler(this.radioButtonOn_CheckedChanged);
             // 
@@ -974,11 +1049,14 @@ namespace Project
             // 
             // btnHelp
             // 
+            this.btnHelp.AccessibleDescription = "Push button to display the software manual.";
+            this.btnHelp.AccessibleName = "Help search";
+            this.btnHelp.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHelp.BackgroundImage")));
             this.btnHelp.Location = new System.Drawing.Point(1, 0);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(30, 23);
-            this.btnHelp.TabIndex = 59;
+            this.btnHelp.TabIndex = 26;
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
