@@ -21,7 +21,7 @@ namespace Project
 
         /// <summary>
         /// Method for task when loading Form2
-        /// </summary>
+        /// </summary> 
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form2_Load(object sender, EventArgs e)
