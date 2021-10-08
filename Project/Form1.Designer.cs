@@ -330,6 +330,7 @@ namespace Project
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -341,6 +342,7 @@ namespace Project
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -352,6 +354,7 @@ namespace Project
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -363,6 +366,7 @@ namespace Project
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -374,6 +378,7 @@ namespace Project
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -389,6 +394,7 @@ namespace Project
             this.comboBoxType.AccessibleDescription = "A combobox to select and display the type of the property.";
             this.comboBoxType.AccessibleName = "Type";
             this.comboBoxType.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxType.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxType.FormattingEnabled = true;
             this.comboBoxType.Items.AddRange(new object[] {
             "House",
@@ -413,6 +419,7 @@ namespace Project
             this.comboBoxHeating.AccessibleDescription = "A combobox to select and display the type of heating.";
             this.comboBoxHeating.AccessibleName = "Heating";
             this.comboBoxHeating.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxHeating.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxHeating.FormattingEnabled = true;
             this.comboBoxHeating.Items.AddRange(new object[] {
             "Gas central heating system",
@@ -433,6 +440,7 @@ namespace Project
             this.comboBoxRoom.AccessibleDescription = "A combobx to select and display the amount of rooms in the property.";
             this.comboBoxRoom.AccessibleName = "Room";
             this.comboBoxRoom.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxRoom.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxRoom.FormattingEnabled = true;
             this.comboBoxRoom.Items.AddRange(new object[] {
             "1",
@@ -452,6 +460,7 @@ namespace Project
             this.comboBoxBer.AccessibleDescription = "A combobox to select and display the B.E.R. rating of the property.";
             this.comboBoxBer.AccessibleName = "B.E.R.";
             this.comboBoxBer.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxBer.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxBer.FormattingEnabled = true;
             this.comboBoxBer.Items.AddRange(new object[] {
             "A1",
@@ -504,6 +513,7 @@ namespace Project
             this.txtSize.AccessibleDescription = "A text box tfor the size of the property.";
             this.txtSize.AccessibleName = "Size";
             this.txtSize.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
+            this.txtSize.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSize.Location = new System.Drawing.Point(566, 217);
             this.txtSize.Name = "txtSize";
             this.txtSize.Size = new System.Drawing.Size(143, 20);
@@ -512,6 +522,7 @@ namespace Project
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.chkWheelchairAccess);
             this.groupBox1.Controls.Add(this.chkProximityArea);
@@ -641,6 +652,7 @@ namespace Project
             this.btnAdd.AccessibleDescription = "A button to add your new record to your collection.";
             this.btnAdd.AccessibleName = "Add";
             this.btnAdd.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -658,6 +670,7 @@ namespace Project
             this.btnUpdate.AccessibleDescription = "A button to update your current record in your collection.";
             this.btnUpdate.AccessibleName = "Update";
             this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdate.BackColor = System.Drawing.Color.Transparent;
             this.btnUpdate.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -675,6 +688,7 @@ namespace Project
             this.btnDelete.AccessibleDescription = "A button to delete current record in your collection.";
             this.btnDelete.AccessibleName = "Delete";
             this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDelete.BackColor = System.Drawing.Color.Transparent;
             this.btnDelete.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -692,6 +706,7 @@ namespace Project
             this.btnClear.AccessibleDescription = "A button to clear all fields.";
             this.btnClear.AccessibleName = "Clear";
             this.btnClear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClear.BackColor = System.Drawing.Color.Transparent;
             this.btnClear.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -709,6 +724,7 @@ namespace Project
             this.txtPrice.AccessibleDescription = "A text box for the price of the property.";
             this.txtPrice.AccessibleName = "Price";
             this.txtPrice.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
+            this.txtPrice.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtPrice.Location = new System.Drawing.Point(566, 285);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(143, 20);
@@ -717,6 +733,7 @@ namespace Project
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -767,6 +784,7 @@ namespace Project
             this.btnSearch.AccessibleDescription = "A button navigate you to the search form.";
             this.btnSearch.AccessibleName = "Search";
             this.btnSearch.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.BackColor = System.Drawing.Color.Transparent;
             this.btnSearch.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -784,6 +802,7 @@ namespace Project
             this.btnExit.AccessibleDescription = "A button to exit thhe application.";
             this.btnExit.AccessibleName = "Exit";
             this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -800,6 +819,7 @@ namespace Project
             // 
             this.btnCancel.AccessibleDescription = "A button to cancel any edit on the current record.";
             this.btnCancel.AccessibleName = "Cancel";
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnCancel.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -817,6 +837,7 @@ namespace Project
             this.btnLast.AccessibleDescription = "Push button to navigate to the last record.";
             this.btnLast.AccessibleName = "Last";
             this.btnLast.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnLast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLast.BackColor = System.Drawing.Color.Transparent;
             this.btnLast.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLast.ForeColor = System.Drawing.SystemColors.Info;
@@ -835,6 +856,7 @@ namespace Project
             this.btnNext.AccessibleDescription = "Push button to navigate to the next record.";
             this.btnNext.AccessibleName = "Next";
             this.btnNext.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnNext.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnNext.BackColor = System.Drawing.Color.Transparent;
             this.btnNext.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
@@ -853,6 +875,7 @@ namespace Project
             this.btnPrevious.AccessibleDescription = "Push button to navigate to the previous record.";
             this.btnPrevious.AccessibleName = "Previous";
             this.btnPrevious.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnPrevious.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPrevious.BackColor = System.Drawing.Color.Transparent;
             this.btnPrevious.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -871,6 +894,7 @@ namespace Project
             this.btnSaveAsCsv.AccessibleDescription = "Push button to save file as CSV.";
             this.btnSaveAsCsv.AccessibleName = "CSV";
             this.btnSaveAsCsv.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSaveAsCsv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSaveAsCsv.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveAsCsv.ForeColor = System.Drawing.SystemColors.Info;
             this.btnSaveAsCsv.Location = new System.Drawing.Point(623, 65);
@@ -886,6 +910,7 @@ namespace Project
             this.btnSaveAs.AccessibleDescription = "Push button to save file as.";
             this.btnSaveAs.AccessibleName = "SaveAs";
             this.btnSaveAs.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSaveAs.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSaveAs.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveAs.Location = new System.Drawing.Point(396, 65);
             this.btnSaveAs.Name = "btnSaveAs";
@@ -900,6 +925,7 @@ namespace Project
             this.btnSave.AccessibleDescription = "Push button to save file.";
             this.btnSave.AccessibleName = "Save";
             this.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSave.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(509, 65);
             this.btnSave.Name = "btnSave";
@@ -913,6 +939,7 @@ namespace Project
             // 
             this.btnOpenFile.AccessibleDescription = "Push button to open file.";
             this.btnOpenFile.AccessibleName = "Open";
+            this.btnOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOpenFile.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenFile.Location = new System.Drawing.Point(134, 65);
             this.btnOpenFile.Name = "btnOpenFile";
@@ -927,6 +954,7 @@ namespace Project
             this.btnCloseFile.AccessibleDescription = "Push button to close file.";
             this.btnCloseFile.AccessibleName = "Close";
             this.btnCloseFile.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCloseFile.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCloseFile.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseFile.Location = new System.Drawing.Point(283, 65);
             this.btnCloseFile.Name = "btnCloseFile";
@@ -941,6 +969,7 @@ namespace Project
             this.btnFirst.AccessibleDescription = "Push button to navigate to the first record.";
             this.btnFirst.AccessibleName = "First";
             this.btnFirst.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnFirst.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnFirst.BackColor = System.Drawing.Color.Transparent;
             this.btnFirst.Font = new System.Drawing.Font("Arial Black", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFirst.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -956,6 +985,7 @@ namespace Project
             // 
             // label11
             // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label11.Font = new System.Drawing.Font("News706 BT", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -971,6 +1001,7 @@ namespace Project
             this.btnClearRecords.AccessibleDescription = "A button to erase all records in your collection.";
             this.btnClearRecords.AccessibleName = "Erase";
             this.btnClearRecords.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClearRecords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClearRecords.BackColor = System.Drawing.Color.Transparent;
             this.btnClearRecords.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearRecords.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -988,6 +1019,7 @@ namespace Project
             this.txtIndex.AccessibleDescription = "Text box to display index number";
             this.txtIndex.AccessibleName = "Index";
             this.txtIndex.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
+            this.txtIndex.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.txtIndex.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtIndex.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIndex.Location = new System.Drawing.Point(396, 25);
@@ -1000,6 +1032,9 @@ namespace Project
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtIndex);
             this.panel1.Controls.Add(this.btnLast);
@@ -1011,7 +1046,6 @@ namespace Project
             this.panel1.Controls.Add(this.btnOpenFile);
             this.panel1.Controls.Add(this.btnCloseFile);
             this.panel1.Controls.Add(this.btnFirst);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 391);
             this.panel1.Name = "panel1";
@@ -1020,6 +1054,7 @@ namespace Project
             // 
             // label12
             // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1034,6 +1069,7 @@ namespace Project
             this.radioButtonOn.AccessibleDescription = "A radio button to swith on tooltip guiding mode.";
             this.radioButtonOn.AccessibleName = "On";
             this.radioButtonOn.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.radioButtonOn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonOn.AutoSize = true;
             this.radioButtonOn.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOn.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1051,6 +1087,7 @@ namespace Project
             this.radioButtonOff.AccessibleDescription = "A radio button to switch off tooltip guiding mode.";
             this.radioButtonOff.AccessibleName = "Off";
             this.radioButtonOff.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.radioButtonOff.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonOff.AutoSize = true;
             this.radioButtonOff.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOff.Checked = true;
@@ -1070,6 +1107,7 @@ namespace Project
             this.btnHelp.AccessibleDescription = "Push button to open the software manual.";
             this.btnHelp.AccessibleName = "Manual";
             this.btnHelp.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHelp.BackgroundImage")));
             this.btnHelp.Location = new System.Drawing.Point(843, 7);
             this.btnHelp.Name = "btnHelp";
@@ -1084,6 +1122,7 @@ namespace Project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(873, 491);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.radioButtonOff);

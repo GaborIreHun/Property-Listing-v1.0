@@ -89,6 +89,8 @@ namespace Project
             // 
             // groupBox11
             // 
+            this.groupBox11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox11.BackColor = System.Drawing.Color.Transparent;
             this.groupBox11.Controls.Add(this.label16);
             this.groupBox11.Controls.Add(this.label15);
@@ -117,8 +119,9 @@ namespace Project
             // 
             // label16
             // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(494, 58);
+            this.label16.Location = new System.Drawing.Point(494, 59);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(132, 17);
             this.label16.TabIndex = 15;
@@ -126,6 +129,7 @@ namespace Project
             // 
             // label15
             // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(494, 22);
             this.label15.Name = "label15";
@@ -135,6 +139,7 @@ namespace Project
             // 
             // label14
             // 
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(330, 60);
             this.label14.Name = "label14";
@@ -144,6 +149,7 @@ namespace Project
             // 
             // label13
             // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(329, 23);
             this.label13.Name = "label13";
@@ -153,6 +159,7 @@ namespace Project
             // 
             // label12
             // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(174, 59);
@@ -163,6 +170,7 @@ namespace Project
             // 
             // label11
             // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label11.Location = new System.Drawing.Point(174, 23);
@@ -196,11 +204,12 @@ namespace Project
             this.comboBoxWheelchair.AccessibleDescription = "Combobox to set the wheelchair access preference for the property searched.";
             this.comboBoxWheelchair.AccessibleName = "Wheelchair search";
             this.comboBoxWheelchair.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxWheelchair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBoxWheelchair.FormattingEnabled = true;
             this.comboBoxWheelchair.Items.AddRange(new object[] {
             "True",
             "False"});
-            this.comboBoxWheelchair.Location = new System.Drawing.Point(621, 56);
+            this.comboBoxWheelchair.Location = new System.Drawing.Point(627, 57);
             this.comboBoxWheelchair.Name = "comboBoxWheelchair";
             this.comboBoxWheelchair.Size = new System.Drawing.Size(65, 25);
             this.comboBoxWheelchair.TabIndex = 20;
@@ -211,11 +220,12 @@ namespace Project
             this.comboBoxProximity.AccessibleDescription = "Combobox to set the proximity preference for the property searched.";
             this.comboBoxProximity.AccessibleName = "Proximity search";
             this.comboBoxProximity.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxProximity.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBoxProximity.FormattingEnabled = true;
             this.comboBoxProximity.Items.AddRange(new object[] {
             "True",
             "False"});
-            this.comboBoxProximity.Location = new System.Drawing.Point(621, 19);
+            this.comboBoxProximity.Location = new System.Drawing.Point(627, 19);
             this.comboBoxProximity.Name = "comboBoxProximity";
             this.comboBoxProximity.Size = new System.Drawing.Size(65, 25);
             this.comboBoxProximity.TabIndex = 19;
@@ -226,6 +236,7 @@ namespace Project
             this.comboBoxSolarPanel.AccessibleDescription = "Combobox to set the solar panel preference for the property searched.";
             this.comboBoxSolarPanel.AccessibleName = "Solar search";
             this.comboBoxSolarPanel.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxSolarPanel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxSolarPanel.FormattingEnabled = true;
             this.comboBoxSolarPanel.Items.AddRange(new object[] {
             "True",
@@ -241,6 +252,7 @@ namespace Project
             this.comboBoxAircondition.AccessibleDescription = "Combobox to set the airconditioning preference for the property searched.";
             this.comboBoxAircondition.AccessibleName = "Aircondition search";
             this.comboBoxAircondition.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxAircondition.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxAircondition.FormattingEnabled = true;
             this.comboBoxAircondition.Items.AddRange(new object[] {
             "True",
@@ -256,6 +268,7 @@ namespace Project
             this.comboBoxBroadband.AccessibleDescription = "Combobox to set the broadband preference for the property searched.";
             this.comboBoxBroadband.AccessibleName = "Broadband search";
             this.comboBoxBroadband.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxBroadband.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxBroadband.FormattingEnabled = true;
             this.comboBoxBroadband.Items.AddRange(new object[] {
             "True",
@@ -271,6 +284,7 @@ namespace Project
             this.comboBoxAlarm.AccessibleDescription = "Combobox to set the alarm preference for the property searched.";
             this.comboBoxAlarm.AccessibleName = "Alarm search";
             this.comboBoxAlarm.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxAlarm.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxAlarm.FormattingEnabled = true;
             this.comboBoxAlarm.Items.AddRange(new object[] {
             "True",
@@ -570,6 +584,7 @@ namespace Project
             this.comboBoxHeating1.AccessibleDescription = "Combobox to set the type of the heating of the property searched.";
             this.comboBoxHeating1.AccessibleName = "Heating search";
             this.comboBoxHeating1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxHeating1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxHeating1.FormattingEnabled = true;
             this.comboBoxHeating1.Items.AddRange(new object[] {
             "Gas central heating system",
@@ -590,6 +605,7 @@ namespace Project
             this.comboBoxType1.AccessibleDescription = "Combobox to set the type of the property searched.";
             this.comboBoxType1.AccessibleName = "Type search";
             this.comboBoxType1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxType1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxType1.FormattingEnabled = true;
             this.comboBoxType1.Items.AddRange(new object[] {
             "House",
@@ -611,6 +627,7 @@ namespace Project
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -623,6 +640,7 @@ namespace Project
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -638,6 +656,7 @@ namespace Project
             this.comboBoxBer1.AccessibleDescription = "Combobox to set the BER rating of the property searched.";
             this.comboBoxBer1.AccessibleName = "BER search";
             this.comboBoxBer1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxBer1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxBer1.FormattingEnabled = true;
             this.comboBoxBer1.Items.AddRange(new object[] {
             "A1",
@@ -668,6 +687,7 @@ namespace Project
             this.comboBoxRoom1.AccessibleDescription = "Combobox to set the number of rooms of the property searched.";
             this.comboBoxRoom1.AccessibleName = "Room search";
             this.comboBoxRoom1.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
+            this.comboBoxRoom1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxRoom1.FormattingEnabled = true;
             this.comboBoxRoom1.Items.AddRange(new object[] {
             "1",
@@ -684,6 +704,7 @@ namespace Project
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -696,6 +717,7 @@ namespace Project
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -708,6 +730,7 @@ namespace Project
             // 
             // label10
             // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -720,6 +743,7 @@ namespace Project
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -790,6 +814,7 @@ namespace Project
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.comboBoxMin);
             this.groupBox2.Controls.Add(this.comboBoxMax);
@@ -804,6 +829,7 @@ namespace Project
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.comboBoxMin1);
             this.groupBox3.Controls.Add(this.comboBoxMax1);
@@ -910,6 +936,7 @@ namespace Project
             this.btnSearching.AccessibleDescription = "Push button to search the records by the set criteria.";
             this.btnSearching.AccessibleName = "Search";
             this.btnSearching.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSearching.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearching.BackColor = System.Drawing.Color.Transparent;
             this.btnSearching.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearching.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -957,6 +984,10 @@ namespace Project
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -971,6 +1002,7 @@ namespace Project
             this.btnRefresh.AccessibleDescription = "Push button to refresh search list to all records.";
             this.btnRefresh.AccessibleName = "Refresh search";
             this.btnRefresh.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
             this.btnRefresh.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -988,6 +1020,7 @@ namespace Project
             this.btnClearAll.AccessibleDescription = "Push button to clear all criteria set for search.";
             this.btnClearAll.AccessibleName = "Clear search";
             this.btnClearAll.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClearAll.BackColor = System.Drawing.Color.Transparent;
             this.btnClearAll.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearAll.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1005,6 +1038,8 @@ namespace Project
             this.radioButtonOff.AccessibleDescription = "Radio button to switch the tooltip guiding mode off.";
             this.radioButtonOff.AccessibleName = "Off search";
             this.radioButtonOff.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.radioButtonOff.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonOff.AutoSize = true;
             this.radioButtonOff.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOff.Checked = true;
@@ -1024,6 +1059,8 @@ namespace Project
             this.radioButtonOn.AccessibleDescription = "Radio button to set tooltip guiding mode on.";
             this.radioButtonOn.AccessibleName = "On search";
             this.radioButtonOn.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.radioButtonOn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonOn.AutoSize = true;
             this.radioButtonOn.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonOn.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1038,6 +1075,8 @@ namespace Project
             // 
             // label17
             // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Arial Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1052,12 +1091,13 @@ namespace Project
             this.btnHelp.AccessibleDescription = "Push button to display the software manual.";
             this.btnHelp.AccessibleName = "Help search";
             this.btnHelp.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHelp.BackgroundImage")));
             this.btnHelp.Location = new System.Drawing.Point(1, 0);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(30, 23);
             this.btnHelp.TabIndex = 26;
-            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // Form2
